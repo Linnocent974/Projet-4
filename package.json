@@ -1,0 +1,25 @@
+{
+  "name": "projet-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss style.css -u autoprefixer cssnano -o ./build/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linnocent974/Projet-4.git"
+  },
+  "author": "Clain arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linnocent974/Projet-4/issues"
+  },
+  "homepage": "https://github.com/Linnocent974/Projet-4#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.17",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
